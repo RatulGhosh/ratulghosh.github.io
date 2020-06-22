@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sanjit Maitra | RATUL GHOSH</title>
+    <link>https://ratulghosh.github.io/author/sanjit-maitra/</link>
+      <atom:link href="https://ratulghosh.github.io/author/sanjit-maitra/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sanjit Maitra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sanjit Maitra</title>
+      <link>https://ratulghosh.github.io/author/sanjit-maitra/</link>
+    </image>
+    
+    <item>
+      <title>Applications of Deep Learning in Medical Imaging</title>
+      <link>https://ratulghosh.github.io/publication/second/</link>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/publication/second/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Please cite using following bibtex:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@incollection{maitra2019applications,
+  title={Applications of Deep Learning in Medical Imaging},
+  author={Maitra, Sanjit and Ghosh, Ratul and Ghosh, Kuntal},
+  booktitle={Handbook of Deep Learning Applications},
+  pages={111--127},
+  year={2019},
+  publisher={Springer, Cham}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic detection and classification of diabetic retinopathy stages using CNN</title>
+      <link>https://ratulghosh.github.io/publication/third/</link>
+      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/publication/third/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Please cite using following bibtex:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;@inproceedings{ghosh2017automatic,
+  title={Automatic detection and classification of diabetic retinopathy stages using CNN},
+  author={Ghosh, Ratul and Ghosh, Kuntal and Maitra, Sanjit},
+  booktitle={2017 4th International Conference on Signal Processing and Integrated Networks (SPIN)},
+  pages={550--554},
+  year={2017},
+  organization={IEEE}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
