@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170804078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-170804078-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -674,6 +712,23 @@
           
         
         <li>
+          <a href="https://linkedin.com/in/ratulghosh1" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
           <a href="https://twitter.com/ratulghoshr" target="_blank" rel="noopener">
             <i class="fab fa-twitter big-icon"></i>
           </a>
@@ -723,8 +778,8 @@
           
         
         <li>
-          <a href="https://linkedin.com/in/ratulghosh1" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
+          <a href="https://medium.com/@ratulghoshr" target="_blank" rel="noopener">
+            <i class="fab fa-medium big-icon"></i>
           </a>
         </li>
         
@@ -741,7 +796,7 @@
         
         <li>
           <a href="https://medium.com/@ratulghoshr" target="_blank" rel="noopener">
-            <i class="fab fa-medium big-icon"></i>
+            <i class="fab fa-unsplash big-icon"></i>
           </a>
         </li>
         
