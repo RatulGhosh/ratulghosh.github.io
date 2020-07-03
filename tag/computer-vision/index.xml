@@ -33,7 +33,7 @@
       <link>https://ratulghosh.github.io/project/instakyc/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/instakyc/</guid>
-      <description>&lt;p&gt;Developed and deployed Insta KYC solution in France, Romania &amp;amp; Serbia. Brought in a savings of 100 FTE &amp;amp; reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating the KYC remediation process using Machine Learning.&lt;/p&gt;
+      <description>&lt;p&gt;InstaKYC is an awarding winning deep learning based platform designed to transform &amp;amp; automate KYC processes and needs for both clients and banks. It covers all key stages of KYC; from onboarding, performing KYC remediation to reviews within seconds. The platform is deployed in France, Romania &amp;amp; Serbia. Brought in a savings of 100 FTE &amp;amp; reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating the entire process using Machine Learning.&lt;/p&gt;
 </description>
     </item>
     
@@ -42,8 +42,7 @@
       <link>https://ratulghosh.github.io/project/ldv/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/ldv/</guid>
-      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications , ID cards) were scanned and extracted data were feed into a CRM. for sub-Saharan Africa. This solution was developed for sub-Saharan Africa where financial inclusion is still very limited. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minuted by automating
-the entire process using Machine Learning. Due to lack of proper network infrastructure in most of sub-Saharan Africa, we deployed machine learning models to run on edge devices for document recognition and extraction of relevant information.&lt;/p&gt;
+      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications, ID cards) were scanned and extracted data were feed into a CRM. for sub-Saharan Africa. This solution was developed for sub-Saharan Africa where financial inclusion is still very limited. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minutes by automating the entire process using Machine Learning. Due to lack of proper network infrastructure in most of sub-Saharan Africa, we deployed machine learning models to run on edge devices for document recognition and extraction of relevant information.&lt;/p&gt;
 </description>
     </item>
     

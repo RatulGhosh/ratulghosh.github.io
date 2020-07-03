@@ -33,7 +33,7 @@
       <link>https://ratulghosh.github.io/project/instakyc/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/instakyc/</guid>
-      <description>&lt;p&gt;Developed and deployed Insta KYC solution in France, Romania &amp;amp; Serbia. Brought in a savings of 100 FTE &amp;amp; reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating the KYC remediation process using Machine Learning.&lt;/p&gt;
+      <description>&lt;p&gt;InstaKYC is an awarding winning deep learning based platform designed to transform &amp;amp; automate KYC processes and needs for both clients and banks. It covers all key stages of KYC; from onboarding, performing KYC remediation to reviews within seconds. The platform is deployed in France, Romania &amp;amp; Serbia. Brought in a savings of 100 FTE &amp;amp; reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating the entire process using Machine Learning.&lt;/p&gt;
 </description>
     </item>
     
@@ -42,8 +42,7 @@
       <link>https://ratulghosh.github.io/project/ldv/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/ldv/</guid>
-      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications , ID cards) were scanned and extracted data were feed into a CRM. for sub-Saharan Africa. This solution was developed for sub-Saharan Africa where financial inclusion is still very limited. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minuted by automating
-the entire process using Machine Learning. Due to lack of proper network infrastructure in most of sub-Saharan Africa, we deployed machine learning models to run on edge devices for document recognition and extraction of relevant information.&lt;/p&gt;
+      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications, ID cards) were scanned and extracted data were feed into a CRM. for sub-Saharan Africa. This solution was developed for sub-Saharan Africa where financial inclusion is still very limited. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minutes by automating the entire process using Machine Learning. Due to lack of proper network infrastructure in most of sub-Saharan Africa, we deployed machine learning models to run on edge devices for document recognition and extraction of relevant information.&lt;/p&gt;
 </description>
     </item>
     
@@ -52,7 +51,8 @@ the entire process using Machine Learning. Due to lack of proper network infrast
       <link>https://ratulghosh.github.io/project/max/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/max/</guid>
-      <description>&lt;p&gt;MAX is a domain specific conversational UX that provides customers a more natural way of interacting with information systems. The product won the NASSCOM Top 50 AI Game Changers award.&lt;/p&gt;
+      <description>&lt;p&gt;MAX is an artificial intelligent Conversation UX that understands natural language through voice and text. It engages in a conversation with a user, understands his/her intent, and helps user performing actions by connecting to relevant applications through APIs. It is a zero coding system and enables businesses to add new use cases(conversation)) on their own. The product won the 
+&lt;a href=&#34;https://www.nasscom.in/knowledge-center/publications/top-50-ai-game-changers-compendium-best-ai-solutions-use-cases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NASSCOM Top 50 AI Game Changers award.&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -71,7 +71,7 @@ the entire process using Machine Learning. Due to lack of proper network infrast
       <link>https://ratulghosh.github.io/project/semse/</link>
       <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://ratulghosh.github.io/project/semse/</guid>
-      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications , ID cards) were scanned and were french. We trained all models from scratch using French Embedding. For Document Recognition we used Inception-v3 for transfer learning and fine tuning. RetinaNET for signature detection and Flair NLP framework for NER.&lt;/p&gt;
+      <description>&lt;p&gt;Semse is a search tool that extracts business knowledge trapped inside thousands of documents by mitigating users&amp;rsquo; struggle of finding information that they are looking for. Semse uses all documents in as-is, where-is basis. It automatically learns entire knowledge from all the documents using state of the art deep learning techniques. It is a language-independent search engine that lets users ask questions in any language. It reduces the manual efforts of preparing training data and organizing questions from users. It also uses iterative learning and continuously evolves based on usage.&lt;/p&gt;
 </description>
     </item>
     
