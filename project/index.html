@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Data Scientist">
+  <meta name="description" content="Grad Student in CS | Researcher | Former Applied Scientist at Amazon &amp; Société Générale">
 
   
   <link rel="alternate" hreflang="en-us" href="https://ratulghosh.github.io/project/">
@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170804078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-170804078-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -216,8 +254,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://ratulghosh.github.io/project/">
 
@@ -237,10 +275,10 @@
   <meta property="og:site_name" content="RATUL GHOSH">
   <meta property="og:url" content="https://ratulghosh.github.io/project/">
   <meta property="og:title" content="Projects | RATUL GHOSH">
-  <meta property="og:description" content="Data Scientist"><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Grad Student in CS | Researcher | Former Applied Scientist at Amazon &amp; Société Générale"><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-04-27T00:00:00&#43;00:00">
   
 
   
@@ -496,7 +534,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://drive.google.com/file/d/1UU0Rzhr6GpISzBOcGRcfUOED725JY7pL/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
+          <a class="nav-link " href="https://drive.google.com/file/d/1RfTNZujeq1Gdf16byyMH8CkO8NnTQEej/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
         </li>
 
         
@@ -633,11 +671,27 @@
     
     
     
+      
+      
+    
     <div>
-      <h2><a href="/project/first/" >Internal Project</a></h2>
+      <h2><a href="https://drive.google.com/file/d/1ROhoeup5HVS6OiIfypEvw7Dt3bhZaonb/view?usp=sharing" target="_blank" rel="noopener">Content-Based Image Retrieval and Clustering for Collaborative Slam</a></h2>
       <div class="article-style">
         
-          An example of using the in-built project page.
+      </div>
+    </div>
+  
+    
+    
+    
+      
+      
+    
+    <div>
+      <h2><a href="https://medium.com/analytics-vidhya/using-deep-learning-to-analyse-movie-posters-for-gender-bias-4c0f1557a051" target="_blank" rel="noopener">Gender Bias in Posters</a></h2>
+      <div class="article-style">
+        
+          Using Deep Learning to Analyse Movie Posters for Gender Bias.
         
       </div>
     </div>
@@ -646,16 +700,109 @@
     
     
     <div>
-      <h2><a href="/project/second/" >Internal Project</a></h2>
+      <h2><a href="/project/instakyc/" >InstaKYC</a></h2>
       <div class="article-style">
         
-          An example of using the in-built project page.
+          InstaKYC is an awarding winning deep learning based platform designed to transform & automate KYC processes
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/ldv/" >Loan Document Verification</a></h2>
+      <div class="article-style">
+        
+          Using Machine Learning to automate loan document verification.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/max/" >MAX</a></h2>
+      <div class="article-style">
+        
+          A conversation UX that provides customers a more natural way of interacting with information systems.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/moviestream/" >Movie Stream</a></h2>
+      <div class="article-style">
+        
+          Python script for streaming movies directly from torrent to yours vlc media player.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/sceptre/" >Sceptre</a></h2>
+      <div class="article-style">
+        
+          An AutoML platform, for conducting AI/ML related experiments.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/securitynode/" >Security &amp; Surveillance</a></h2>
+      <div class="article-style">
+        
+          IoT based general purpose Security and Surveillance system for home, office, traffic etc.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/semse/" >SEMSE</a></h2>
+      <div class="article-style">
+        
+          Language agnostic search tool for private documents.
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/project/smart-grid/" >SMART GRID</a></h2>
+      <div class="article-style">
+        
+          A novel approch to conserve electricity using smart grid.
         
       </div>
     </div>
   
 
   
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/project/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
 
 </div>
 

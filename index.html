@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Data Scientist">
+  <meta name="description" content="Grad Student in CS | Researcher | Former Applied Scientist at Amazon &amp; Société Générale">
 
   
   <link rel="alternate" hreflang="en-us" href="https://ratulghosh.github.io/">
@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170804078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-170804078-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -218,8 +256,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://ratulghosh.github.io/">
 
@@ -239,10 +277,10 @@
   <meta property="og:site_name" content="RATUL GHOSH">
   <meta property="og:url" content="https://ratulghosh.github.io/">
   <meta property="og:title" content="RATUL GHOSH">
-  <meta property="og:description" content="Data Scientist"><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Grad Student in CS | Researcher | Former Applied Scientist at Amazon &amp; Société Générale"><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-02-26T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2019-04-27T00:00:00&#43;00:00">
   
 
   
@@ -512,7 +550,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://drive.google.com/file/d/1UU0Rzhr6GpISzBOcGRcfUOED725JY7pL/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
+          <a class="nav-link " href="https://drive.google.com/file/d/1RfTNZujeq1Gdf16byyMH8CkO8NnTQEej/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
         </li>
 
         
@@ -689,17 +727,17 @@
 
       
       
-      <img class="avatar avatar-circle" src="/author/ratul-ghosh/avatar_hub4d14bdd96649d53f5e96a4f54d3ff58_2414527_270x270_fill_lanczos_center_2.png" alt="Ratul Ghosh">
+      <img class="avatar avatar-circle" src="/author/ratul-ghosh/avatar_hu5cd225ae970d2a506cdef1f428e635f1_298764_270x270_fill_lanczos_center_2.png" alt="Ratul Ghosh">
       
 
       <div class="portrait-title">
         <h2>Ratul Ghosh</h2>
-        <h3>Data Scientist</h3>
+        <h3>Grad Student in CS | Researcher | Former Applied Scientist at Amazon &amp; Société Générale</h3>
 
         
         <h3>
-          <a href="https://www.societegenerale.com/en/home" target="_blank" rel="noopener">
-          <span>Société Générale</span>
+          <a href="https://www.ics.uci.edu/" target="_blank" rel="noopener">
+          <span>University of California, Irvine</span>
           </a>
         </h3>
         
@@ -719,6 +757,23 @@
         <li>
           <a href="mailto:ratulghoshr@gmail.com" >
             <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://linkedin.com/in/ratulghosh1" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
           </a>
         </li>
         
@@ -783,23 +838,6 @@
           
         
         <li>
-          <a href="https://linkedin.com/in/ratulghosh1" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
           <a href="https://medium.com/@ratulghoshr" target="_blank" rel="noopener">
             <i class="fab fa-medium big-icon"></i>
           </a>
@@ -817,8 +855,25 @@
           
         
         <li>
-          <a href="https://www.quora.com/profile/Ratul-Ghosh-10" target="_blank" rel="noopener">
-            <i class="fab fa-quora big-icon"></i>
+          <a href="https://medium.com/@ratulghoshr" target="_blank" rel="noopener">
+            <i class="fab fa-unsplash big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://unsplash.com/@ratulghoshr" target="_blank" rel="noopener">
+            <i class="fab fa-unsplash big-icon"></i>
           </a>
         </li>
         
@@ -831,16 +886,21 @@
     
     <h1>About Me</h1>
 
-    <p>I&rsquo;m a data scientist at 
-<a href="https://www.societegenerale.com/en/home" target="_blank" rel="noopener">Société Générale</a>, working as part of ML CoE, Innovation team.
-I work on developing business transforming product suite focused on automatic KYC remediation, extracting context-based information from scanned documents and multilingual chatbots using AI. Before that, I got my Bachelors degree in Electronics and Communication from Indian Institute of Information Technology Allahabad.</p>
+    <p>Currently a Graduate student in Computer Science at the 
+<a href="https://www.ics.uci.edu/" target="_blank" rel="noopener">Donald Bren School of Information and Computer Sciences</a> at University of California, Irvine advised by 
+<a href="http://sameersingh.org/group.html" target="_blank" rel="noopener">Prof. Sameer Singh</a>.</p>
+<p>Previously worked as part of the Innovation team at 
+<a href="https://www.societegenerale.com/en/home" target="_blank" rel="noopener">Société Générale</a>. Works involved developing business transforming product suites focused on automatic KYC remediation, extracting context-based information from scanned documents, knowledge graphs, trade finance automation, semantic search and multilingual chatbots using AI.</p>
+<p>Before that, I got my Bachelors degree in Electronics and Communication from Indian Institute of Information Technology Allahabad.</p>
 <p>During my bachelors, I was fortunate to work with some amazing mentors in different research labs. I have worked with 
 <a href="https://www.isical.ac.in/kuntal-ghosh" target="_blank" rel="noopener">Prof. Kuntal Ghosh</a> and 
 <a href="https://sites.google.com/view/sanjit-maitra/home?authuser=0" target="_blank" rel="noopener">Prof. Sanjit Maitra</a> at the 
 <a href="https://www.isical.ac.in/~scc/" target="_blank" rel="noopener">Center for Soft Computing Research</a> of Indian Statistical Institute. I have done my bachelor thesis at the 
 <a href="https://www.tata.com/about-us/innovation" target="_blank" rel="noopener">TCS Innovation Labs</a> working with 
 <a href="https://scholar.google.com/citations?user=Eqf8NrEAAAAJ&amp;hl=en" target="_blank" rel="noopener">Dr. Brojeshwar Bhowmick</a>.</p>
-<p>Apart from my academic endeavours, I like playing video games, sketching, cooking, reading about economics and history.</p>
+<p>Apart from my academic endeavours, I like playing video games, 
+<a href="https://sites.google.com/view/ratul-fun/drawing-painting?authuser=0" target="_blank" rel="noopener">sketching</a>, 
+<a href="https://sites.google.com/view/ratul-fun/cooking?authuser=0" target="_blank" rel="noopener">cooking</a>, reading about economics and history.</p>
 
 
     <div class="row">
@@ -852,7 +912,7 @@ I work on developing business transforming product suite focused on automatic KY
           
           <li>Deep Learning</li>
           
-          <li>Artificial Intelligence</li>
+          <li>Natural Language Processing</li>
           
           <li>Computer Vision</li>
           
@@ -876,24 +936,16 @@ I work on developing business transforming product suite focused on automatic KY
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
+              <p class="course">Master&#39;s degree in Computer Science, 2022</p>
+              <p class="institution">University of California, Irvine</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
               <p class="course">BTech in Electronics and Communication, 2018</p>
               <p class="institution">Indian Institute of Information Technology, Allahabad</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Artificial Intelligence Nanodegree, 2018</p>
-              <p class="institution">Udacity</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Deep Learning Specialization, 2019</p>
-              <p class="institution">Coursera</p>
             </div>
           </li>
           
@@ -963,7 +1015,92 @@ I work on developing business transforming product suite focused on automatic KY
           <div class="col">&nbsp;</div>
         </div>
         <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Applied Scientist Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="amazon.science" target="_blank" rel="noopener">Amazon</a></h4>
+            <div class="text-muted exp-meta">
+              Jun 2021 –
+              
+                Aug 2021
+              
+              
+                <span class="middot-divider"></span>
+                <span>Seattle, Washington</span>
+              
+            </div>
+            <div class="card-text"><p><br /></p>
+<ul>
+<li>Semi-Supervised learning for Risky Vendor Identification.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
           <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Graduate Student Researcher</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.ics.uci.edu/" target="_blank" rel="noopener">Donald Bren School of Information and Computer Sciences</a></h4>
+            <div class="text-muted exp-meta">
+              Nov 2020 –
+              
+                Present
+              
+              
+                <span class="middot-divider"></span>
+                <span>Irvine, California</span>
+              
+            </div>
+            <div class="card-text"><p><br /></p>
+<ul>
+<li>Advisors: <a href="http://sameersingh.org/group.html">Prof. Sameer Singh</a></li>
+<li>Working on  Multimodal attributes extraction.</li>
+<li>Scientific claims and facts verification.</li>
+<li>UCI Machine Learning Repository.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
         </div>
         <div class="row h-50">
           <div class="col border-right">&nbsp;</div>
@@ -979,20 +1116,23 @@ I work on developing business transforming product suite focused on automatic KY
             <div class="text-muted exp-meta">
               Aug 2018 –
               
-                Present
+                Sep 2020
               
               
                 <span class="middot-divider"></span>
-                <span>Bangalore</span>
+                <span>Bangalore &amp; Paris</span>
               
             </div>
-            <div class="card-text"><p>Responsibilities include:</p>
+            <div class="card-text"><p><br /></p>
 <ul>
-<li>Working as part of ML CoE, Innovation team.</li>
-<li>Developing business transforming products suite focused on automatic KYC remediation, extracting
-context-based information from scanned documents and multilingual chatbots using AI.</li>
 <li>Worked on the creation of a chatbot(MAX) that provides customers a more natural way of interacting with information systems.
 The product won the NASSCOM Top 50 AI Game Changers award.</li>
+<li>Developed and deployed Insta KYC solution in France, Romania &amp; Serbia. Brought in a savings of 100 FTE &amp;
+reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating
+the KYC remediation process using Machine Learning.</li>
+<li>Developed a language-agnostic search tool for the extraction of business knowledge trapped inside thousands of documents.</li>
+<li>Worked on the automation of loan document verification for sub-Saharan Africa. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minutes by automating the entire process using Machine Learning.</li>
+<li>Currently working on automation of trade finance verification.</li>
 </ul>
 </div>
           </div>
@@ -1028,7 +1168,7 @@ The product won the NASSCOM Top 50 AI Game Changers award.</li>
               
               
                 <span class="middot-divider"></span>
-                <span>Kolkata</span>
+                <span>Bangalore &amp; Kolkata</span>
               
             </div>
             <div class="card-text">Worked on Content-Based Image Retrieval and Clustering for Collaborative Slam at the Machine Vision division of TCS Innovation Lab. Research work published at IEEE Winter Conference on Applications of Computer Vision (WACV) and led to a patent.</div>
@@ -1065,11 +1205,16 @@ The product won the NASSCOM Top 50 AI Game Changers award.</li>
               
               
                 <span class="middot-divider"></span>
-                <span>Kolkata</span>
+                <span>Kolkata, India</span>
               
             </div>
-            <div class="card-text">Worked on a cloud-based ETL and Data Analytics system.
-Worked on image classification, image retrieval using Tensorflow, and data transformation from different sources like S3, redshift, Mysql, etc. using AWS.</div>
+            <div class="card-text"><p><br /></p>
+<ul>
+<li>Worked on a cloud-based ETL and Data Analytics system.</li>
+<li>Deployed image classification, image retrieval models using TensorFlow and data transformation from
+different sources like S3, redshift, etc. using AWS.</li>
+</ul>
+</div>
           </div>
         </div>
       </div>
@@ -1095,7 +1240,7 @@ Worked on image classification, image retrieval using Tensorflow, and data trans
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Project Reviewer and Mentor</h4>
-            <h4 class="card-title exp-company text-muted my-0">Udacity</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.udacity.com/" target="_blank" rel="noopener">Udacity</a></h4>
             <div class="text-muted exp-meta">
               Mar 2017 –
               
@@ -1106,7 +1251,13 @@ Worked on image classification, image retrieval using Tensorflow, and data trans
                 <span>Remote</span>
               
             </div>
-            <div class="card-text">I review Machine Learning, Deep Learning, Artificial Intelligence, AI for Trading, Data Engineering and Data Analyst projects for Udacity Nanodegree programs. Help give specific and actionable feedback to students. Technologies &amp; Algorithms: Pytorch, Keras, Tensorflow, Search, Planning, Constraint Satisfaction Problems, Advance Game Playing, Python, Sklearn, Numpy, AWS, Neural Networks, RNN, CNN, GAN, Kafka, Docker, Cassandra etc.</div>
+            <div class="card-text"><p><br /></p>
+<ul>
+<li>I review Machine Learning, Deep Learning, Artificial Intelligence, AI for Trading, Data Engineering and Data Analyst projects for Udacity Nanodegree programs. Help give specific and actionable feedback to students.</li>
+<li>Technologies &amp; Algorithms: Pytorch, Keras, Tensorflow, Search, Planning, Constraint Satisfaction Problems, Advance Game Playing, Python, Sklearn, Numpy, AWS, Neural Networks, RNN, CNN, GAN, Kafka, Docker, Cassandra etc.</li>
+<li>Review and test contents for new Nanodegree programs.</li>
+</ul>
+</div>
           </div>
         </div>
       </div>
@@ -1132,7 +1283,7 @@ Worked on image classification, image retrieval using Tensorflow, and data trans
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Data Science Intern</h4>
-            <h4 class="card-title exp-company text-muted my-0"><a href="https://thirdeyedata.io/" target="_blank" rel="noopener">Busigence Technologies</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://busigence.com/" target="_blank" rel="noopener">Busigence Technologies</a></h4>
             <div class="text-muted exp-meta">
               Dec 2016 –
               
@@ -1143,8 +1294,12 @@ Worked on image classification, image retrieval using Tensorflow, and data trans
                 <span>Gurgaon, India</span>
               
             </div>
-            <div class="card-text">Designed and implemented applications to support distributed processing and transformation of raw data using Apache Spark. Performance increased by 10X from previous solution.
-Used Spark MLlib and TensorFlow for performing machine learning and associated tasks on massive datasets.</div>
+            <div class="card-text"><p><br /></p>
+<ul>
+<li>Designed and implemented applications to support distributed processing and transformation of raw data using Apache Spark. Performance increased by 10X from previous solution.</li>
+<li>Used Spark MLlib and TensorFlow for performing machine learning and associated tasks on massive datasets.</li>
+</ul>
+</div>
           </div>
         </div>
       </div>
@@ -1467,11 +1622,116 @@ Used Spark MLlib and TensorFlow for performing machine learning and associated t
 
     
 
+      
+
+      
+      
+      
+      
+        
+      
+
+      <span class="d-none default-project-filter">*</span>
+
+      
+      
+      <div class="project-toolbar">
+        <div class="project-filters">
+          <div class="btn-toolbar">
+            <div class="btn-group flex-wrap">
+              
+                
+                
+                
+                  
+                
+                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Industry-Projects" class="btn btn-primary btn-lg">Industry Projects</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Research-Projects" class="btn btn-primary btn-lg">Research Projects</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Machine-Learning" class="btn btn-primary btn-lg">Machine Learning</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-NLP" class="btn btn-primary btn-lg">NLP</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Computer-Vision" class="btn btn-primary btn-lg">Computer Vision</a>
+              
+                
+                
+                
+                <a href="#" data-filter=".js-id-Random" class="btn btn-primary btn-lg">Random</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+
     <div class="isotope projects-container js-layout-masonry ">
       
 
         
         
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Computer-Vision js-id-Research-Projects">
+  <div class="card">
+    
+    
+    <a href="https://drive.google.com/file/d/1ROhoeup5HVS6OiIfypEvw7Dt3bhZaonb/view?usp=sharing" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/tcs/featured_hu85c6f55f79b746c5f7fb2a779eea7d19_240868_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://drive.google.com/file/d/1ROhoeup5HVS6OiIfypEvw7Dt3bhZaonb/view?usp=sharing" target="_blank" rel="noopener">Content-Based Image Retrieval and Clustering for Collaborative Slam</a></h4>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
         
 
         
@@ -1490,14 +1750,19 @@ Used Spark MLlib and TensorFlow for performing machine learning and associated t
 
 
 
-<div class="project-card project-item isotope-item js-id-Deep-Learning">
+<div class="project-card project-item isotope-item js-id-Research-Projects js-id-Machine-Learning js-id-Computer-Vision">
   <div class="card">
     
+    
+    <a href="https://medium.com/analytics-vidhya/using-deep-learning-to-analyse-movie-posters-for-gender-bias-4c0f1557a051" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/movie-gender/featured_hu29eeed661bda7013d5f586212ff769da_677338_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
     <div class="card-text">
-      <h4><a href="/project/first/" >Internal Project</a></h4>
+      <h4><a href="https://medium.com/analytics-vidhya/using-deep-learning-to-analyse-movie-posters-for-gender-bias-4c0f1557a051" target="_blank" rel="noopener">Gender Bias in Posters</a></h4>
       
       <div class="article-style">
-        <p>An example of using the in-built project page.</p>
+        <p>Using Deep Learning to Analyse Movie Posters for Gender Bias.</p>
       </div>
       
     </div>
@@ -1528,14 +1793,576 @@ Used Spark MLlib and TensorFlow for performing machine learning and associated t
 
 
 
-<div class="project-card project-item isotope-item js-id-Computer-Vision">
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-Computer-Vision">
+  <div class="card">
+    
+    
+    <a href="/project/instakyc/"  class="card-image hover-overlay">
+      <img src="/project/instakyc/featured_hu9e7e01469ece8ce0c41cc18e7b5e01dc_2043916_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/instakyc/" >InstaKYC</a></h4>
+      
+      <div class="article-style">
+        <p>InstaKYC is an awarding winning deep learning based platform designed to transform &amp; automate KYC processes</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-Computer-Vision js-id-NLP">
+  <div class="card">
+    
+    
+    <a href="/project/ldv/"  class="card-image hover-overlay">
+      <img src="/project/ldv/featured_hua159b494363c726464c40945859e6bec_18792_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/ldv/" >Loan Document Verification</a></h4>
+      
+      <div class="article-style">
+        <p>Using Machine Learning to automate loan document verification.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-NLP">
+  <div class="card">
+    
+    
+    <a href="/project/max/"  class="card-image hover-overlay">
+      <img src="/project/max/featured_hu1aa944fda6b759d32a3e7c9066b42445_1551565_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/max/" >MAX</a></h4>
+      
+      <div class="article-style">
+        <p>A conversation UX that provides customers a more natural way of interacting with information systems.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Random">
+  <div class="card">
+    
+    
+    <a href="/project/moviestream/"  class="card-image hover-overlay">
+      <img src="/project/moviestream/featured_hu62bbe2c79c5047798938fe86ab54e354_8611_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/moviestream/" >Movie Stream</a></h4>
+      
+      <div class="article-style">
+        <p>Python script for streaming movies directly from torrent to yours vlc media player.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-NLP js-id-Computer-Vision">
+  <div class="card">
+    
+    
+    <a href="/project/sceptre/"  class="card-image hover-overlay">
+      <img src="/project/sceptre/featured_huc34a3dec01636af1d7957b73d3b23563_2288_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/sceptre/" >Sceptre</a></h4>
+      
+      <div class="article-style">
+        <p>An AutoML platform, for conducting AI/ML related experiments.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Random">
+  <div class="card">
+    
+    
+    <a href="/project/securitynode/"  class="card-image hover-overlay">
+      <img src="/project/securitynode/featured_hu17fe1bebc34126b68bdfa85c2a5850c0_24348_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/securitynode/" >Security &amp; Surveillance</a></h4>
+      
+      <div class="article-style">
+        <p>IoT based general purpose Security and Surveillance system for home, office, traffic etc.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-NLP">
   <div class="card">
     
     <div class="card-text">
-      <h4><a href="/project/second/" >Internal Project</a></h4>
+      <h4><a href="/project/semse/" >SEMSE</a></h4>
       
       <div class="article-style">
-        <p>An example of using the in-built project page.</p>
+        <p>Language agnostic search tool for private documents.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Random">
+  <div class="card">
+    
+    
+    <a href="/project/smart-grid/"  class="card-image hover-overlay">
+      <img src="/project/smart-grid/featured_hu85940528ae16d967da06480c48f7e00c_236245_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/smart-grid/" >SMART GRID</a></h4>
+      
+      <div class="article-style">
+        <p>A novel approch to conserve electricity using smart grid.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Industry-Projects js-id-Machine-Learning js-id-NLP js-id-Computer-Vision">
+  <div class="card">
+    
+    
+    <a href="/project/veritrade/"  class="card-image hover-overlay">
+      <img src="/project/veritrade/featured_hu6582905253f2fc384824df116976cd70_134768_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="/project/veritrade/" >VeriTrade</a></h4>
+      
+      <div class="article-style">
+        <p>Using Machine Learning to automate trade finance verification. The solution involves extracting critical information across various documents like Bill of lading, Letter of credit, etc, and making sure those documents comply with ICC UCP &amp; ISBP rules.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Computer-Vision js-id-Research-Projects">
+  <div class="card">
+    
+    
+    <a href="https://docs.google.com/presentation/d/1elpQcoBzhpYskwLJOPKiqFPnwpWHQp4E6yrrMSeQ444/edit?usp=sharing" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/dr/featured_huf875e0c5de980593e4fb108b97ceca15_31535_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://docs.google.com/presentation/d/1elpQcoBzhpYskwLJOPKiqFPnwpWHQp4E6yrrMSeQ444/edit?usp=sharing" target="_blank" rel="noopener"></a></h4>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Random">
+  <div class="card">
+    
+    
+    <a href="https://github.com/Aparoksha/App_2016" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/feast/featured_hu6fe420d7cc030e93d0a8728fb7f9c8de_33695_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/Aparoksha/App_2016" target="_blank" rel="noopener">Aparoksha</a></h4>
+      
+      <div class="article-style">
+        <p>Android app for the annual cultural and technical festival of IIIT Allahabad.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Computer-Vision js-id-Research-Projects">
+  <div class="card">
+    
+    
+    <a href="https://drive.google.com/file/d/16S-s08RS0hTJ0E0sHZWvnKGN3z0h1hia/view?usp=sharing" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/segmentation/featured_hu1a72c698fbf8be1f57141d6d762a4ed7_446103_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://drive.google.com/file/d/16S-s08RS0hTJ0E0sHZWvnKGN3z0h1hia/view?usp=sharing" target="_blank" rel="noopener">Image Segmentation using CNN</a></h4>
+      
+      <div class="article-style">
+        <p>Segmentation of White Blood Cells and Brachial Plexus from Ultrasound  Images using CNN based UNet architecture.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Computer-Vision js-id-Research-Projects">
+  <div class="card">
+    
+    
+    <a href="https://drive.google.com/file/d/12gtrcJEjoEPDQcAtZejq_rngjeemfl3N/view?usp=sharing" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/landfeature/featured_hu19ab199417149055587893409d3f1e2b_140921_550x0_resize_q90_lanczos_2.png" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://drive.google.com/file/d/12gtrcJEjoEPDQcAtZejq_rngjeemfl3N/view?usp=sharing" target="_blank" rel="noopener">Land Features Classification from RISAT-1 Polarized Image using CNN</a></h4>
+      
+    </div>
+  </div>
+</div>
+
+        
+
+      
+
+        
+        
+        
+          
+          
+        
+
+        
+          
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Random">
+  <div class="card">
+    
+    
+    <a href="#" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/mutation/featured_huc395d04b26bdd7506cd8aa11272f79a4_23692_550x0_resize_q90_lanczos.jpg" alt="" class="img-responsive">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="#" target="_blank" rel="noopener">Mutation Level Prediction</a></h4>
+      
+      <div class="article-style">
+        <p>Predicting the level of the mutation using machine learning and signifying whether it is Benign, Likely Pathogenic, Pathogenic or something else. The dataset was provided by Strand Life Sciences.</p>
       </div>
       
     </div>

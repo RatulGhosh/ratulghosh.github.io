@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170804078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-170804078-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -214,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://ratulghosh.github.io/publication/first/">
 
@@ -283,7 +321,7 @@
     "name": "RATUL GHOSH",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Despite significant advances in clustering methods in recent years, the outcome of clustering of a natural image dataset is still unsatisfactory due to two important drawbacks. Firstly, clustering of images needs a good feature representation of an image and secondly, we need a robust method which can discriminate these features for making them belonging to different clusters such that intra-class variance is less and inter-class variance is high. Often these two aspects are dealt with independently and thus the features are not sufficient enough to partition the data meaningfully. In this paper, we propose a method where we discover these features required for the separation of the images using deep autoencoder. Our method learns the image representation features automatically for the purpose of clustering and also select a coherent image and an incoherent image simultaneously for a given image so that the feature representation learning can learn better discriminative features for grouping the similar images in a cluster and at the same time separating the dissimilar images across clusters. Experiment results show that our method produces significantly better result than the state-of-the-art methods and we also show that our method is more generalized across different dataset without using any pre-trained model like other existing methods."
@@ -543,7 +581,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://drive.google.com/file/d/1UU0Rzhr6GpISzBOcGRcfUOED725JY7pL/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
+          <a class="nav-link " href="https://drive.google.com/file/d/1RfTNZujeq1Gdf16byyMH8CkO8NnTQEej/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
         </li>
 
         

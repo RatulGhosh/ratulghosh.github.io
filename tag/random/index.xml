@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Random | RATUL GHOSH</title>
+    <link>https://ratulghosh.github.io/tag/random/</link>
+      <atom:link href="https://ratulghosh.github.io/tag/random/index.xml" rel="self" type="application/rss+xml" />
+    <description>Random</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png</url>
+      <title>Random</title>
+      <link>https://ratulghosh.github.io/tag/random/</link>
+    </image>
+    
+    <item>
+      <title>Movie Stream</title>
+      <link>https://ratulghosh.github.io/project/moviestream/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/moviestream/</guid>
+      <description>&lt;blockquote class=&#34;embedly-card&#34;&gt;&lt;h4&gt;&lt;a href=&#34;https://youtu.be/i2h-ovxYuGs?t=40&#34;&gt;demo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;null&lt;/p&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//cdn.embedly.com/widgets/platform.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Find the code 
+&lt;a href=&#34;https://github.com/RatulGhosh/movie-stream&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Security &amp; Surveillance</title>
+      <link>https://ratulghosh.github.io/project/securitynode/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/securitynode/</guid>
+      <description>&lt;p&gt;IoT based general purpose Security and Surveillance system for home, office, traffic etc. The application continuously records videos and if there is any motion a signal is sent to the Node Mcu which in turn triggers a buzzer. There is an extended application of integrating with the Dropbox API so that the system can automatically upload security photos to our personal Dropbox account.&lt;/p&gt;
+&lt;blockquote class=&#34;embedly-card&#34;&gt;&lt;h4&gt;&lt;a href=&#34;https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/giphy.gif&#34;&gt;null&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;null&lt;/p&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//cdn.embedly.com/widgets/platform.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Find the code 
+&lt;a href=&#34;https://github.com/RatulGhosh/Security-and-Surveillance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMART GRID</title>
+      <link>https://ratulghosh.github.io/project/smart-grid/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/smart-grid/</guid>
+      <description>&lt;p&gt;The objective of this project is to conserve electricity using IoT-based Smart Grid incorporating different sensors at the power station and houses. Manually determining the root cause of failures is often tedious for a complex system operating in large-scale distributed heterogeneous environments. The model is used to maximize the utility of the consumer, subject to a minimum daily energy consumption level, maximum and minimum hourly load levels, and ramping limits on such load levels. Monitoring the real-time data of the power consumption by the appliances connected to a network and if less than a certain value the re-routing of power to some other place which is in need takes place. A smart meter which delivers the real-time data consumption by the consumers. Fault in one grid leads to the re-routing of power through the nearest grid. A simple bidirectional communication between the power supplier and the consumer enables the implementation of the proposed model.&lt;/p&gt;
+&lt;p&gt;Find more 
+&lt;a href=&#34;https://ece.iiita.ac.in/project.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aparoksha</title>
+      <link>https://ratulghosh.github.io/project/feast/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/feast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutation Level Prediction</title>
+      <link>https://ratulghosh.github.io/project/mutation/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/mutation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

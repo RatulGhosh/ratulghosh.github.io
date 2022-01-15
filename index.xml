@@ -5,12 +5,128 @@
     <link>https://ratulghosh.github.io/</link>
       <atom:link href="https://ratulghosh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>RATUL GHOSH</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 27 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png</url>
       <title>RATUL GHOSH</title>
       <link>https://ratulghosh.github.io/</link>
     </image>
+    
+    <item>
+      <title>Content-Based Image Retrieval and Clustering for Collaborative Slam</title>
+      <link>https://ratulghosh.github.io/project/tcs/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/tcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gender Bias in Posters</title>
+      <link>https://ratulghosh.github.io/project/movie-gender/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/movie-gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InstaKYC</title>
+      <link>https://ratulghosh.github.io/project/instakyc/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/instakyc/</guid>
+      <description>&lt;p&gt;InstaKYC is an awarding winning deep learning based platform designed to transform &amp;amp; automate KYC processes and needs for both clients and banks. It covers all key stages of KYC; from onboarding, performing KYC remediation to reviews within seconds. The platform is deployed in France, Romania &amp;amp; Serbia. Brought in a savings of 100 FTE &amp;amp; reduced the remediation time from 20 minutes per client (manual) to 40 seconds (automated) by automating the entire process using Machine Learning.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Loan Document Verification</title>
+      <link>https://ratulghosh.github.io/project/ldv/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/ldv/</guid>
+      <description>&lt;p&gt;Designed and Developed Events driven pipeline for Document Classification, Signature Detection &amp;amp; Verification with State of the art Named Entity Recognition. All documents (Payslips, Self-Certifications, ID cards) were scanned and extracted data were feed into a CRM. for sub-Saharan Africa. This solution was developed for sub-Saharan Africa where financial inclusion is still very limited. The solution reduced the previous verification time from 2 weeks per client (manual) to around 30 minutes by automating the entire process using Machine Learning. Due to lack of proper network infrastructure in most of sub-Saharan Africa, we deployed machine learning models to run on edge devices for document recognition and extraction of relevant information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MAX</title>
+      <link>https://ratulghosh.github.io/project/max/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/max/</guid>
+      <description>&lt;p&gt;MAX is an artificial intelligent Conversation UX that understands natural language through voice and text. It engages in a conversation with a user, understands his/her intent, and helps user performing actions by connecting to relevant applications through APIs. It is a zero coding system and enables businesses to add new use cases(conversation)) on their own. The product won the 
+&lt;a href=&#34;https://www.nasscom.in/knowledge-center/publications/top-50-ai-game-changers-compendium-best-ai-solutions-use-cases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NASSCOM Top 50 AI Game Changers award.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Movie Stream</title>
+      <link>https://ratulghosh.github.io/project/moviestream/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/moviestream/</guid>
+      <description>&lt;blockquote class=&#34;embedly-card&#34;&gt;&lt;h4&gt;&lt;a href=&#34;https://youtu.be/i2h-ovxYuGs?t=40&#34;&gt;demo&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;null&lt;/p&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//cdn.embedly.com/widgets/platform.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Find the code 
+&lt;a href=&#34;https://github.com/RatulGhosh/movie-stream&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sceptre</title>
+      <link>https://ratulghosh.github.io/project/sceptre/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/sceptre/</guid>
+      <description>&lt;p&gt;Sceptre is a platform built for conducting AI/ML related experiments. On-fly OCR functionality with the option to choose Tesseract (Open source) Engine, ABBYY Engine, or Azure OCR. Ability to create multiple projects with different versions and tag documents on the platform itself for recognition and extraction purpose. The platform lets users choose different algorithms for document extraction and define business-specific heuristics. The platform can also run multiple consistency checks and rules specified by the business. Finally, the platform will list down the documents where some validation failed and requires additional review.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Security &amp; Surveillance</title>
+      <link>https://ratulghosh.github.io/project/securitynode/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/securitynode/</guid>
+      <description>&lt;p&gt;IoT based general purpose Security and Surveillance system for home, office, traffic etc. The application continuously records videos and if there is any motion a signal is sent to the Node Mcu which in turn triggers a buzzer. There is an extended application of integrating with the Dropbox API so that the system can automatically upload security photos to our personal Dropbox account.&lt;/p&gt;
+&lt;blockquote class=&#34;embedly-card&#34;&gt;&lt;h4&gt;&lt;a href=&#34;https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/giphy.gif&#34;&gt;null&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;null&lt;/p&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//cdn.embedly.com/widgets/platform.js&#34; charset=&#34;UTF-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Find the code 
+&lt;a href=&#34;https://github.com/RatulGhosh/Security-and-Surveillance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SEMSE</title>
+      <link>https://ratulghosh.github.io/project/semse/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/semse/</guid>
+      <description>&lt;p&gt;Semse is a search tool that extracts business knowledge trapped inside thousands of documents by mitigating users&amp;rsquo; struggle of finding information that they are looking for. Semse uses all documents in as-is, where-is basis. It automatically learns entire knowledge from all the documents using state of the art deep learning techniques. It is a language-independent search engine that lets users ask questions in any language. It reduces the manual efforts of preparing training data and organizing questions from users. It also uses iterative learning and continuously evolves based on usage.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SMART GRID</title>
+      <link>https://ratulghosh.github.io/project/smart-grid/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/smart-grid/</guid>
+      <description>&lt;p&gt;The objective of this project is to conserve electricity using IoT-based Smart Grid incorporating different sensors at the power station and houses. Manually determining the root cause of failures is often tedious for a complex system operating in large-scale distributed heterogeneous environments. The model is used to maximize the utility of the consumer, subject to a minimum daily energy consumption level, maximum and minimum hourly load levels, and ramping limits on such load levels. Monitoring the real-time data of the power consumption by the appliances connected to a network and if less than a certain value the re-routing of power to some other place which is in need takes place. A smart meter which delivers the real-time data consumption by the consumers. Fault in one grid leads to the re-routing of power through the nearest grid. A simple bidirectional communication between the power supplier and the consumer enables the implementation of the proposed model.&lt;/p&gt;
+&lt;p&gt;Find more 
+&lt;a href=&#34;https://ece.iiita.ac.in/project.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VeriTrade</title>
+      <link>https://ratulghosh.github.io/project/veritrade/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/veritrade/</guid>
+      <description>&lt;p&gt;Veritrade is a solution to automate trade finance verification. The solution uses state of the art deep learning to first identify the type of documents from 23 different categories like Bill of Lading, Letter of Credit, Invoice, etc. Once a document is classified the solution extracts critical information like issue date, type of commodity, billing address, etc from each of those 23 documents using a hybrid approach comprising of both machine learning and heuristics. The information extraction approach is robust enough to handle different variations across the same documents.
+The solution then runs around 4000 consistency checks and rules specified by UCP and ISBP. The rules and consistency checks can be intra and inter documents.&lt;/p&gt;
+&lt;p&gt;Advantages of Veritrade:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Massive efficiency gains of ~80%&lt;/li&gt;
+&lt;li&gt;Drastically reduces the operational risk&lt;/li&gt;
+&lt;li&gt;Brings objectivity to the UCP/ISBP rules&lt;/li&gt;
+&lt;li&gt;Flexible to quickly adapt to any UCP/ISBP rules&lt;/li&gt;
+&lt;li&gt;Eliminates training cost&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Applications of Deep Learning in Medical Imaging</title>
@@ -67,29 +183,43 @@
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>https://ratulghosh.github.io/project/first/</link>
+      <title></title>
+      <link>https://ratulghosh.github.io/project/dr/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ratulghosh.github.io/project/first/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
+      <guid>https://ratulghosh.github.io/project/dr/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>https://ratulghosh.github.io/project/second/</link>
+      <title>Aparoksha</title>
+      <link>https://ratulghosh.github.io/project/feast/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ratulghosh.github.io/project/second/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
+      <guid>https://ratulghosh.github.io/project/feast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Segmentation using CNN</title>
+      <link>https://ratulghosh.github.io/project/segmentation/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Land Features Classification from RISAT-1 Polarized Image using CNN</title>
+      <link>https://ratulghosh.github.io/project/landfeature/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/landfeature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mutation Level Prediction</title>
+      <link>https://ratulghosh.github.io/project/mutation/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://ratulghosh.github.io/project/mutation/</guid>
+      <description></description>
     </item>
     
   </channel>

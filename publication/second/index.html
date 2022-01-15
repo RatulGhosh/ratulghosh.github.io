@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170804078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-170804078-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -214,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://ratulghosh.github.io/publication/second/">
 
@@ -235,8 +273,8 @@
   <meta property="og:site_name" content="RATUL GHOSH">
   <meta property="og:url" content="https://ratulghosh.github.io/publication/second/">
   <meta property="og:title" content="Applications of Deep Learning in Medical Imaging | RATUL GHOSH">
-  <meta property="og:description" content="Deep Learning techniques have recently been widely used for medical image analysis, which has shown encouraging results especially for large datasets. In particular, convolutional neural network has shown better capabilities to segment and/or classify medical images like ultrasound and CT scan images in comparison to previously used conventional machine learning techniques. This chapter includes applications of deep learning techniques in two different image modalities used in medical image analysis domain. The application of convolutional neural network in medical images is shown using ultrasound images to segment a collection of nerves known as Brachial Plexus. Deep learning technique is also applied to classify different stages of diabetic retinopathy using color fundus retinal photography."><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Deep Learning techniques have recently been widely used for medical image analysis, which has shown encouraging results especially for large datasets. In particular, convolutional neural network has shown better capabilities to segment and/or classify medical images like ultrasound and CT scan images in comparison to previously used conventional machine learning techniques. This chapter includes applications of deep learning techniques in two different image modalities used in medical image analysis domain. The application of convolutional neural network in medical images is shown using ultrasound images to segment a collection of nerves known as Brachial Plexus. Deep learning technique is also applied to classify different stages of diabetic retinopathy using color fundus retinal photography."><meta property="og:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-02-26T00:00:00&#43;00:00">
@@ -280,7 +318,7 @@
     "name": "RATUL GHOSH",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ratulghosh.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://ratulghosh.github.io/images/icon_hua80dc707618ccdeb04ec20a728b72544_14783_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Deep Learning techniques have recently been widely used for medical image analysis, which has shown encouraging results especially for large datasets. In particular, convolutional neural network has shown better capabilities to segment and/or classify medical images like ultrasound and CT scan images in comparison to previously used conventional machine learning techniques. This chapter includes applications of deep learning techniques in two different image modalities used in medical image analysis domain. The application of convolutional neural network in medical images is shown using ultrasound images to segment a collection of nerves known as Brachial Plexus. Deep learning technique is also applied to classify different stages of diabetic retinopathy using color fundus retinal photography."
@@ -540,7 +578,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://drive.google.com/file/d/1UU0Rzhr6GpISzBOcGRcfUOED725JY7pL/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
+          <a class="nav-link " href="https://drive.google.com/file/d/1RfTNZujeq1Gdf16byyMH8CkO8NnTQEej/view?usp=sharing" target="_blank" rel="noopener"><span>Résumé</span></a>
         </li>
 
         
